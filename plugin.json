@@ -1,18 +1,18 @@
 {
-    "name": "Callpay Gateway",
-    "description": "Callpay EFT Gateway integration for Botble CMS.",
-    "version": "1.0.0",
-    "author": "Zaqueu Orlando",
-    "website": "https://yourwebsite.com",
-    "namespace": "Botble\\CallpayGateway",
-    "providers": [
-      "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider"
-    ],
-    "aliases": {
-      "CallpayGateway": "Botble\\CallpayGateway\\Facades\\CallpayGateway"
-    },
-    "routes": {
-      "web": "routes/web.php"
-    },
-    "commands": []
-  }
+  "name": "Callpay Gateway",
+  "description": "Callpay EFT Gateway integration for Botble CMS.",
+  "version": "1.0.0",
+  "author": "Zaqueu Orlando",
+  "website": "https://redmarket-on.com",
+  "namespace": "Botble\\CallpayGateway",
+  "providers": [
+    "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider"
+  ],
+  "aliases": {
+    "CallpayGateway": "Botble\\CallpayGateway\\Facades\\CallpayGateway"
+  },
+  "routes": {
+    "web": "routes/web.php"
+  },
+  "commands": []
+}
