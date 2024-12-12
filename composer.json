@@ -1,0 +1,11 @@
+{
+    "name": "botble/callpay-gateway",
+    "description": "Callpay EFT Gateway integration for Botble CMS.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Botble\\CallpayGateway\\": "src/"
+        }
+    }
+}
