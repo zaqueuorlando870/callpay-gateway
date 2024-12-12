@@ -1,9 +1,10 @@
 {
+  "id": "botble/callpay-gatway",
   "name": "Callpay Gateway",
   "description": "Callpay EFT Gateway integration for Botble CMS.",
   "version": "1.0.0",
   "author": "Zaqueu Orlando",
-  "website": "https://redmarket-on.com",
+  "website": "https://botble.com",
   "namespace": "Botble\\CallpayGateway",
   "providers": [
     "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider"
