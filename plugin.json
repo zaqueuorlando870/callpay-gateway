@@ -1,19 +1,14 @@
 {
-  "id": "botble/callpay-gatway",
-  "name": "Callpay Gateway",
-  "description": "Callpay EFT Gateway integration for Botble CMS.",
-  "version": "1.0.0",
-  "author": "Zaqueu Orlando",
-  "website": "https://botble.com",
-  "namespace": "Botble\\CallpayGateway",
-  "providers": [
-    "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider"
-  ],
-  "aliases": {
-    "CallpayGateway": "Botble\\CallpayGateway\\Facades\\CallpayGateway"
-  },
-  "routes": {
-    "web": "routes/web.php"
-  },
-  "commands": []
+    "id": "botble/callpay",
+    "name": "Callpay Payment Gateway",
+    "namespace": "Botble\\CallpayGateway\\",
+    "provider": "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider",
+    "author": "Zaqueu Orlando",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Callpay payment gateway integration",
+    "minimum_core_version": "7.3.0",
+    "require": [
+        "botble/payment"
+    ]
 }
