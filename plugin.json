@@ -1,14 +1,12 @@
 {
-    "id": "botble/callpay",
+    "id": "callpaygateway/callpay",
     "name": "Callpay Payment Gateway",
-    "namespace": "Botble\\CallpayGateway\\",
-    "provider": "Botble\\CallpayGateway\\Providers\\CallpayGatewayServiceProvider",
+    "namespace": "CallpayGatway\\Callpay\\",
+    "provider": "CallpayGatway\\Callpay\\Providers\\CallpayServiceProvider",
     "author": "Zaqueu Orlando",
-    "url": "https://botble.com",
-    "version": "1.0.0",
+    "url": "https://github.com/zaqueuorlando870/callpay-gateway",
+    "version": "1.0.1",
     "description": "Callpay payment gateway integration",
-    "minimum_core_version": "7.3.0",
-    "require": [
-        "botble/payment"
-    ]
+    "minimum_core_version": "7.0.0",
+    "require": ["botble/payment"]
 }
